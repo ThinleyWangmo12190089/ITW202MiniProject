@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "934963514503",
+    "project_id": "waitless-4eb0e",
+    "storage_bucket": "waitless-4eb0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934963514503:android:911b612797467ef9ddbc22",
+        "android_client_info": {
+          "package_name": "com.example.waitless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934963514503-jct3h1eftf5l9udag3kttam7h3r100ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ZYMspkenAa6WlL9dlQTgAUgPCEnXyKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934963514503-jct3h1eftf5l9udag3kttam7h3r100ev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
