@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/p2"
+    android:layout_height="match_parent"
+    tools:context=".PateintDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantarell"
+        android:text="Patient's Details"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_name"
+        android:hint="Name"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:background="@drawable/rectangular_field"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/rectangular_field"
+        android:hint="Gender"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rectangular_field"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rectangular_field"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/rectangular_field"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Symptoms"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/rectangular_field"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Disease if any"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/rectangular_field"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/btn"
+        android:onClick="NextAppointment"
+        android:textSize="25sp"
+        android:fontFamily="@font/cantarell"/>
+
+</LinearLayout>

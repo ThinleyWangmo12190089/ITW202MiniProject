@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">waitless</string>
+    <string name="terms_of_user">By installing "Waitless" on your device,
+        you have accepted terms and conditions of this agreement.</string>
+    <string name="mes">If you are done entering all the requirements
+        you can logout by clicking the button given below.</string>
+</resources>
