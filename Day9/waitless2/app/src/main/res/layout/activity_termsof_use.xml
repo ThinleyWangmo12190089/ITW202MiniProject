@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsofUse"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/p2">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logo"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/term_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantarell"
+        android:text="Terms of Use"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+    <TextView
+        android:id="@+id/terms_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_of_user"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:lineHeight="40dp"
+        android:layout_marginTop="30dp"
+        android:justificationMode="inter_word"/>
+</LinearLayout>

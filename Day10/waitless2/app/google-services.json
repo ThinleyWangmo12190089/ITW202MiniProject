@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "203941047366",
+    "project_id": "doctor-s-appointment-c6b05",
+    "storage_bucket": "doctor-s-appointment-c6b05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203941047366:android:57ac096265ce4fe26f6e47",
+        "android_client_info": {
+          "package_name": "com.example.waitless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203941047366-d9sfvj3vur98snucl83d4hcqvda3uocp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBph8C6oiV-4E6Zft6U0NO0isq0nzXVdNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203941047366-d9sfvj3vur98snucl83d4hcqvda3uocp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

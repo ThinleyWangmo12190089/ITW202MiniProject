@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pDetails"
+            android:title="Add Personal Details" />
+        <item
+            android:id="@+id/nav_appointment"
+            android:title="Appointment" />
+        <item
+            android:id="@+id/nav_use"
+            android:title="Terms of Use" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+</menu>
